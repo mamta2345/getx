@@ -161,7 +161,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               // Title
                               Expanded(
                                 child: Text(
-                                  item.titleKey!,
+                                  item.titleKey ?? 'Friend Level',
                                   style: const TextStyle(
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold,

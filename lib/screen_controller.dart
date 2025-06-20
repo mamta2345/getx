@@ -1,7 +1,6 @@
 // ignore_for_file: deprecated_member_use
 
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:vqcodes_assignment/api_data_model.dart';
@@ -9,7 +8,6 @@ import 'package:vqcodes_assignment/repository.dart';
 
 class AchivementController extends GetxController {
   final AchievementsRepository _repo = AchievementsRepository();
-
   final allAchievements = <UKStartUp_Model>[].obs; // master list
   final displayedAchievements = <UKStartUp_Model>[].obs; // what UI shows
   bool hasRecentlyErrored = false;
